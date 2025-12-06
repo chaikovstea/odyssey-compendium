@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UT-8"?>
+<xmlns:TEI xmlns:xmlns="http://www.tei-c.org/ns/1.0">
+  <text>
+      <anchor type="collate" xml:id="WB1"/>
+      <milestone unit="book" n="1"/>
+      <milestone unit="stanza" type="start" n="1"/>
+      <pb xml:id="ODYWilson_v1_01" n="viii"/>
+      <head sID="book1_head1"/>The Boy and the Goddess<head eID="book1_head1"/>
+      <comment text="rm: centered ornamental "/>
+       <line><p sID="book1_s1">T<hi sID="book1_s1_hi1"/>ell<hi eID="book1_s1_hi1"/> me about a complicated man.</line>
+       <line>Muse, tell me how he wandered and was lost</line> 
+       <line>when he had wrecked the holy town of Troy,</line>
+       <line> where he went, and who he met, the pain</line>
+       <line> suffered on the sea, and how he worked</line>
+       <line>to save his life and bring his men back home.</line>
+       <line>He failed, and for their own mistakes, they died.</line>
+       <line>They are the Sun God's cattle, and the god</line>
+       <line>kept them from home. Now goddess, child of Zeus,</line>
+       <line>tell the old story for our modern times.</line>
+       <line>Find the beginning.</line><p eID="book1_s1"/> 

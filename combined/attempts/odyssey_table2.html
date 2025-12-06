@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Odyssey — Greek / Lattimore / Wilson (lines)</title>
+<style>
+  body { font-family: Georgia, serif; padding: 20px; line-height: 1.4; }
+  table { border-collapse: collapse; width: 100%; table-layout: fixed; }
+  th, td { border: 1px solid #ddd; vertical-align: top; padding: 8px; width: 33%; }
+  th { background: #f7f7f7; text-align: left; }
+  .line-number { width: 40px; text-align: right; padding-right: 12px; color: #666; }
+  .word { margin-right: 6px; padding: 2px 4px; border-radius: 4px; cursor: pointer; display: inline-block; }
+  .word:hover { outline: 2px dotted #888; }
+
+  /* POS color map — expand as needed */
+  .pos-acc-noun { background: #ffe8e8; }
+  .pos-noun { background: #fff2cc; }
+  .pos-verb { background: #e6f7ff; }
+  .pos-adj { background: #e8ffe8; }
+  .pos-adv { background: #f0e6ff; }
+  .pos-pron { background: #fff0f5; }
+  .pos-participle { background: #fff6e6; }
+  .pos-neg { background: #f8e6e6; }
+  .pos-conj { background: #f2f2f2; }
+  .pos-prop { background: #e8f7ff; }
+  .pos-punct { background: transparent; }
+
+  /* highlight styles */
+  .highlight { box-shadow: 0 0 0 3px rgba(255, 200, 0, 0.35); transform: translateY(-1px); }
+  .selected { box-shadow: 0 0 0 4px rgba(0, 150, 230, 0.25); transform: translateY(-1px); }
+
+  /* small notes */
+  .note { font-size: 0.9em; color: #444; margin-bottom: 12px; }
+
+  @media (max-width: 900px) {
+    table, thead, tbody, th, td, tr { display: block; }
+    th { display: none; }
+    td { width: 100%; }
+    .line-number { display: block; margin-bottom: 6px; }
+  }
+</style>
+</head>
+<body>
+<h2>Odyssey I — Greek aligned with Lattimore & Wilson (first lines)</h2>
+<p class="note">Hover a word to highlight aligned words; click to lock selection. Colors indicate parts-of-speech (POS) by the <code>ana</code> label in the XML.</p>
+
+<table>
+  <thead>
+    <tr><th class="line-number">#</th><th>Greek (original)</th><th>Lattimore (translation)</th><th>Wilson (translation)</th></tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td class="line-number">1</td>
+      <td><span data-id="g1w1" id="g1w1" data-pos="acc-noun" class="pos-acc-noun word">ἄνδρα</span> <span data-id="g1w2" id="g1w2" data-pos="dat-pron" class="pos-dat-pron word">μοι</span> <span data-id="g1w3" id="g1w3" data-pos="verb" class="pos-verb word">ἔννεπε,</span> <span data-id="g1w4" id="g1w4" data-pos="noun" class="pos-noun word">μοῦσα,</span> <span data-id="g1w5" id="g1w5" data-pos="adj" class="pos-adj word">πολύτροπον,</span> <span data-id="g1w6" id="g1w6" data-pos="rel-pron" class="pos-rel-pron word">ὃς</span> <span data-id="g1w7" id="g1w7" data-pos="adv" class="pos-adv word">μάλα</span> <span data-id="g1w8" id="g1w8" data-pos="adj" class="pos-adj word">πολλὰ</span></td>
+      <td><span data-id="l1w1" id="l1w1" data-pos="verb" class="pos-verb word" data-corresp="#g1w3 #g1w4 #g1w5">Tell</span> <span data-id="l1w2" id="l1w2" data-pos="noun" class="pos-noun word" data-corresp="#g1w4">me,</span> <span data-id="l1w3" id="l1w3" data-pos="noun" class="pos-noun word" data-corresp="#g1w4">Muse,</span> <span data-id="l1w4" id="l1w4" data-pos="noun" class="pos-noun word" data-corresp="#g1w1">of</span> <span data-id="l1w5" id="l1w5" data-pos="noun" class="pos-noun word" data-corresp="#g1w1">the</span> <span data-id="l1w6" id="l1w6" data-pos="noun" class="pos-noun word" data-corresp="#g1w1">man</span> <span data-id="l1w7" id="l1w7" data-pos="adj" class="pos-adj word" data-corresp="#g1w5">of</span> <span data-id="l1w8" id="l1w8" data-pos="adj" class="pos-adj word" data-corresp="#g1w5">many</span> <span data-id="l1w9" id="l1w9" data-pos="adj" class="pos-adj word" data-corresp="#g1w5">ways,</span></td>
+      <td><span data-id="w1w1" id="w1w1" data-pos="verb" class="pos-verb word" data-corresp="#g1w3 #g1w4">Tell</span> <span data-id="w1w2" id="w1w2" data-pos="noun" class="pos-noun word" data-corresp="#g1w4">me</span> <span data-id="w1w3" id="w1w3" data-pos="adj" class="pos-adj word" data-corresp="#g1w5">about</span> <span data-id="w1w4" id="w1w4" data-pos="adj" class="pos-adj word" data-corresp="#g1w1">a</span> <span data-id="w1w5" id="w1w5" data-pos="noun" class="pos-noun word" data-corresp="#g1w1">complicated</span> <span data-id="w1w6" id="w1w6" data-pos="noun" class="pos-noun word" data-corresp="#g1w1">man.</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">2</td>
+      <td><span data-id="g2w1" id="g2w1" data-pos="verb" class="pos-verb word">πλάγχθη,</span> <span data-id="g2w2" id="g2w2" data-pos="conj" class="pos-conj word">ἐπεὶ</span> <span data-id="g2w3" id="g2w3" data-pos="gen-prop" class="pos-gen-prop word">Τροίης</span> <span data-id="g2w4" id="g2w4" data-pos="adj" class="pos-adj word">ἱερὸν</span> <span data-id="g2w5" id="g2w5" data-pos="noun" class="pos-noun word">πτολίεθρον</span> <span data-id="g2w6" id="g2w6" data-pos="verb" class="pos-verb word">ἔπερσεν:</span></td>
+      <td><span data-id="l2w1" id="l2w1" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">who</span> <span data-id="l2w2" id="l2w2" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">was</span> <span data-id="l2w3" id="l2w3" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">driven</span> <span data-id="l2w4" id="l2w4" data-pos="noun" class="pos-noun word" data-corresp="#g2w6 #g2w5">far</span> <span data-id="l2w5" id="l2w5" data-pos="noun" class="pos-noun word" data-corresp="#g2w6">journeys,</span> <span data-id="l2w6" id="l2w6" data-pos="prep" class="pos-prep word" data-corresp="#g2w6">after</span> <span data-id="l2w7" id="l2w7" data-pos="verb" class="pos-verb word" data-corresp="#g2w5">he</span> <span data-id="l2w8" id="l2w8" data-pos="verb" class="pos-verb word" data-corresp="#g2w5">had</span> <span data-id="l2w9" id="l2w9" data-pos="verb" class="pos-verb word" data-corresp="#g2w5">sacked</span> <span data-id="l2w10" id="l2w10" data-pos="noun" class="pos-noun word" data-corresp="#g2w4 #g2w5">Troy’s</span> <span data-id="l2w11" id="l2w11" data-pos="noun" class="pos-noun word" data-corresp="#g2w4">sacred</span> <span data-id="l2w12" id="l2w12" data-pos="noun" class="pos-noun word" data-corresp="#g2w5">citadel.</span></td>
+      <td><span data-id="w2w1" id="w2w1" data-pos="verb" class="pos-verb word" data-corresp="#g1w6 #g2w1">Muse,</span> <span data-id="w2w2" id="w2w2" data-pos="verb" class="pos-verb word" data-corresp="#g1w6 #g2w1">tell</span> <span data-id="w2w3" id="w2w3" data-pos="verb" class="pos-verb word" data-corresp="#g1w6 #g2w1">me</span> <span data-id="w2w4" id="w2w4" data-pos="verb" class="pos-verb word" data-corresp="#g1w6 #g2w1">how</span> <span data-id="w2w5" id="w2w5" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">he</span> <span data-id="w2w6" id="w2w6" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">wandered</span> <span data-id="w2w7" id="w2w7" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">and</span> <span data-id="w2w8" id="w2w8" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">was</span> <span data-id="w2w9" id="w2w9" data-pos="verb" class="pos-verb word" data-corresp="#g2w1">lost</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">3</td>
+      <td><span data-id="g3w1" id="g3w1" data-pos="adj" class="pos-adj word">πολλῶν</span> <span data-id="g3w2" id="g3w2" data-pos="conj" class="pos-conj word">δ᾽</span> <span data-id="g3w3" id="g3w3" data-pos="noun" class="pos-noun word">ἀνθρώπων</span> <span data-id="g3w4" id="g3w4" data-pos="verb" class="pos-verb word">ἴδεν</span> <span data-id="g3w5" id="g3w5" data-pos="noun" class="pos-noun word">ἄστεα</span> <span data-id="g3w6" id="g3w6" data-pos="conj" class="pos-conj word">καὶ</span> <span data-id="g3w7" id="g3w7" data-pos="noun" class="pos-noun word">νόον</span> <span data-id="g3w8" id="g3w8" data-pos="verb" class="pos-verb word">ἔγνω,</span></td>
+      <td><span data-id="l3w1" id="l3w1" data-pos="adj" class="pos-adj word" data-corresp="#g3w1 #g3w3">Many</span> <span data-id="l3w2" id="l3w2" data-pos="noun" class="pos-noun word" data-corresp="#g3w3">were</span> <span data-id="l3w3" id="l3w3" data-pos="noun" class="pos-noun word" data-corresp="#g3w5">they</span> <span data-id="l3w4" id="l3w4" data-pos="noun" class="pos-noun word" data-corresp="#g3w5">whose</span> <span data-id="l3w5" id="l3w5" data-pos="noun" class="pos-noun word" data-corresp="#g3w5">cities</span> <span data-id="l3w6" id="l3w6" data-pos="noun" class="pos-noun word" data-corresp="#g3w7">he</span> <span data-id="l3w7" id="l3w7" data-pos="verb" class="pos-verb word" data-corresp="#g3w7">saw,</span> <span data-id="l3w8" id="l3w8" data-pos="noun" class="pos-noun word" data-corresp="#g3w7">whose</span> <span data-id="l3w9" id="l3w9" data-pos="noun" class="pos-noun word" data-corresp="#g3w7">minds</span> <span data-id="l3w10" id="l3w10" data-pos="verb" class="pos-verb word" data-corresp="#g3w8">he</span> <span data-id="l3w11" id="l3w11" data-pos="verb" class="pos-verb word" data-corresp="#g3w8">learned</span> <span data-id="l3w12" id="l3w12" data-pos="punct" class="pos-punct word" data-corresp="#g3w8">of,</span></td>
+      <td><span data-id="w3w1" id="w3w1" data-pos="verb" class="pos-verb word" data-corresp="#g2w5">when</span> <span data-id="w3w2" id="w3w2" data-pos="verb" class="pos-verb word" data-corresp="#g2w5">he</span> <span data-id="w3w3" id="w3w3" data-pos="verb" class="pos-verb word" data-corresp="#g2w5">had</span> <span data-id="w3w4" id="w3w4" data-pos="verb" class="pos-verb word" data-corresp="#g2w5">wrecked</span> <span data-id="w3w5" id="w3w5" data-pos="adj" class="pos-adj word" data-corresp="#g2w4">the</span> <span data-id="w3w6" id="w3w6" data-pos="noun" class="pos-noun word" data-corresp="#g2w4">holy</span> <span data-id="w3w7" id="w3w7" data-pos="noun" class="pos-noun word" data-corresp="#g2w5">town</span> <span data-id="w3w8" id="w3w8" data-pos="noun" class="pos-noun word" data-corresp="#g2w5">of</span> <span data-id="w3w9" id="w3w9" data-pos="noun" class="pos-noun word" data-corresp="#g2w5">Troy,</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">4</td>
+      <td><span data-id="g4w1" id="g4w1" data-pos="adj" class="pos-adj word">πολλὰ</span> <span data-id="g4w2" id="g4w2" data-pos="conj" class="pos-conj word">δ᾽</span> <span data-id="g4w3" id="g4w3" data-pos="pron" class="pos-pron word">ὅ</span> <span data-id="g4w4" id="g4w4" data-pos="prep" class="pos-prep word">γ᾽</span> <span data-id="g4w5" id="g4w5" data-pos="prep" class="pos-prep word">ἐν</span> <span data-id="g4w6" id="g4w6" data-pos="noun" class="pos-noun word">πόντῳ</span> <span data-id="g4w7" id="g4w7" data-pos="verb" class="pos-verb word">πάθεν</span> <span data-id="g4w8" id="g4w8" data-pos="noun" class="pos-noun word">ἄλγεα</span> <span data-id="g4w9" id="g4w9" data-pos="rel" class="pos-rel word">ὃν</span> <span data-id="g4w10" id="g4w10" data-pos="prep" class="pos-prep word">κατὰ</span> <span data-id="g4w11" id="g4w11" data-pos="noun" class="pos-noun word">θυμόν,</span></td>
+      <td><span data-id="l4w1" id="l4w1" data-pos="adj" class="pos-adj word" data-corresp="#g4w1">many</span> <span data-id="l4w2" id="l4w2" data-pos="noun" class="pos-noun word" data-corresp="#g4w7">the</span> <span data-id="l4w3" id="l4w3" data-pos="noun" class="pos-noun word" data-corresp="#g4w7">pains</span> <span data-id="l4w4" id="l4w4" data-pos="prep" class="pos-prep word" data-corresp="#g4w6">he</span> <span data-id="l4w5" id="l4w5" data-pos="verb" class="pos-verb word" data-corresp="#g4w6">suffered</span> <span data-id="l4w6" id="l4w6" data-pos="prep" class="pos-prep word" data-corresp="#g4w6">in</span> <span data-id="l4w7" id="l4w7" data-pos="noun" class="pos-noun word" data-corresp="#g4w6">his</span> <span data-id="l4w8" id="l4w8" data-pos="noun" class="pos-noun word" data-corresp="#g4w6">spirit</span> <span data-id="l4w9" id="l4w9" data-pos="prep" class="pos-prep word" data-corresp="#g4w6">on</span> <span data-id="l4w10" id="l4w10" data-pos="adj" class="pos-adj word" data-corresp="#g4w6">the</span> <span data-id="l4w11" id="l4w11" data-pos="noun" class="pos-noun word" data-corresp="#g4w6">wide</span> <span data-id="l4w12" id="l4w12" data-pos="noun" class="pos-noun word" data-corresp="#g4w6">sea,</span></td>
+      <td><span data-id="w4w1" id="w4w1" data-pos="conj" class="pos-conj word" data-corresp="#g3w5">and</span> <span data-id="w4w2" id="w4w2" data-pos="pron" class="pos-pron word" data-corresp="#g3w5">where</span> <span data-id="w4w3" id="w4w3" data-pos="verb" class="pos-verb word" data-corresp="#g3w5">he</span> <span data-id="w4w4" id="w4w4" data-pos="verb" class="pos-verb word" data-corresp="#g3w5">went,</span> <span data-id="w4w5" id="w4w5" data-pos="conj" class="pos-conj word" data-corresp="#g3w7">and</span> <span data-id="w4w6" id="w4w6" data-pos="pron" class="pos-pron word" data-corresp="#g3w7">who</span> <span data-id="w4w7" id="w4w7" data-pos="verb" class="pos-verb word" data-corresp="#g3w7">he</span> <span data-id="w4w8" id="w4w8" data-pos="noun" class="pos-noun word" data-corresp="#g3w8">met,</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">5</td>
+      <td><span data-id="g5w1" id="g5w1" data-pos="participle" class="pos-participle word">ἀρνύμενος</span> <span data-id="g5w2" id="g5w2" data-pos="pron" class="pos-pron word">ἥν</span> <span data-id="g5w3" id="g5w3" data-pos="conj" class="pos-conj word">τε</span> <span data-id="g5w4" id="g5w4" data-pos="noun" class="pos-noun word">ψυχὴν</span> <span data-id="g5w5" id="g5w5" data-pos="conj" class="pos-conj word">καὶ</span> <span data-id="g5w6" id="g5w6" data-pos="noun" class="pos-noun word">νόστον</span> <span data-id="g5w7" id="g5w7" data-pos="noun" class="pos-noun word">ἑταίρων.</span></td>
+      <td><span data-id="l5w1" id="l5w1" data-pos="participle" class="pos-participle word" data-corresp="#g5w1">struggling</span> <span data-id="l5w2" id="l5w2" data-pos="prep" class="pos-prep word" data-corresp="#g5w4">for</span> <span data-id="l5w3" id="l5w3" data-pos="adj" class="pos-adj word" data-corresp="#g5w4">his</span> <span data-id="l5w4" id="l5w4" data-pos="noun" class="pos-noun word" data-corresp="#g5w4">own</span> <span data-id="l5w5" id="l5w5" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">life</span> <span data-id="l5w6" id="l5w6" data-pos="conj" class="pos-conj word" data-corresp="#g5w6">and</span> <span data-id="l5w7" id="l5w7" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">the</span> <span data-id="l5w8" id="l5w8" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">homecoming</span> <span data-id="l5w9" id="l5w9" data-pos="prep" class="pos-prep word" data-corresp="#g5w6">of</span> <span data-id="l5w10" id="l5w10" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">his</span> <span data-id="l5w11" id="l5w11" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">companions.</span></td>
+      <td><span data-id="w5w1" id="w5w1" data-pos="noun" class="pos-noun word" data-corresp="#g4w7">the</span> <span data-id="w5w2" id="w5w2" data-pos="noun" class="pos-noun word" data-corresp="#g4w7 #g4w8">pain</span> <span data-id="w5w3" id="w5w3" data-pos="verb" class="pos-verb word" data-corresp="#g4w7">he</span> <span data-id="w5w4" id="w5w4" data-pos="verb" class="pos-verb word" data-corresp="#g4w7">suffered</span> <span data-id="w5w5" id="w5w5" data-pos="prep" class="pos-prep word" data-corresp="#g4w7">on</span> <span data-id="w5w6" id="w5w6" data-pos="noun" class="pos-noun word" data-corresp="#g4w7">the</span> <span data-id="w5w7" id="w5w7" data-pos="noun" class="pos-noun word" data-corresp="#g4w7">sea,</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">6</td>
+      <td><span data-id="g6w1" id="g6w1" data-pos="conj" class="pos-conj word">ἀλλ᾽</span> <span data-id="g6w2" id="g6w2" data-pos="neg" class="pos-neg word">οὐδ᾽</span> <span data-id="g6w3" id="g6w3" data-pos="adv" class="pos-adv word">ὣς</span> <span data-id="g6w4" id="g6w4" data-pos="verb" class="pos-verb word">ἑτάρους</span> <span data-id="g6w5" id="g6w5" data-pos="verb" class="pos-verb word">ἐρρύσατο,</span> <span data-id="g6w6" id="g6w6" data-pos="participle" class="pos-participle word">ἱέμενός</span> <span data-id="g6w7" id="g6w7" data-pos="part" class="pos-part word">περ:</span></td>
+      <td><span data-id="l6w1" id="l6w1" data-pos="conj" class="pos-conj word" data-corresp="#g6w1 #g6w2">Even</span> <span data-id="l6w2" id="l6w2" data-pos="adv" class="pos-adv word" data-corresp="#g6w4 #g6w5">so</span> <span data-id="l6w3" id="l6w3" data-pos="verb" class="pos-verb word" data-corresp="#g6w4 #g6w5">he</span> <span data-id="l6w4" id="l6w4" data-pos="verb" class="pos-verb word" data-corresp="#g6w4 #g6w5">could</span> <span data-id="l6w5" id="l6w5" data-pos="verb" class="pos-verb word" data-corresp="#g6w4 #g6w5">not</span> <span data-id="l6w6" id="l6w6" data-pos="verb" class="pos-verb word" data-corresp="#g6w4 #g6w5">save</span> <span data-id="l6w7" id="l6w7" data-pos="adj" class="pos-adj word" data-corresp="#g6w6">his</span> <span data-id="l6w8" id="l6w8" data-pos="noun" class="pos-noun word" data-corresp="#g6w6">companions,</span> <span data-id="l6w9" id="l6w9" data-pos="adj" class="pos-adj word" data-corresp="#g6w6">hard</span> <span data-id="l6w10" id="l6w10" data-pos="verb" class="pos-verb word" data-corresp="#g6w6">though</span></td>
+      <td><span data-id="w6w1" id="w6w1" data-pos="verb" class="pos-verb word" data-corresp="#g5w1">and</span> <span data-id="w6w2" id="w6w2" data-pos="verb" class="pos-verb word" data-corresp="#g5w1">how</span> <span data-id="w6w3" id="w6w3" data-pos="verb" class="pos-verb word" data-corresp="#g5w1 #g5w4">he</span> <span data-id="w6w4" id="w6w4" data-pos="verb" class="pos-verb word" data-corresp="#g5w4">worked</span> <span data-id="w6w5" id="w6w5" data-pos="prep" class="pos-prep word" data-corresp="#g5w4 #g5w6">to</span> <span data-id="w6w6" id="w6w6" data-pos="verb" class="pos-verb word" data-corresp="#g5w6">save</span> <span data-id="w6w7" id="w6w7" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">his</span> <span data-id="w6w8" id="w6w8" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">life</span> <span data-id="w6w9" id="w6w9" data-pos="conj" class="pos-conj word" data-corresp="#g5w6">and</span> <span data-id="w6w10" id="w6w10" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">bring</span> <span data-id="w6w11" id="w6w11" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">his</span> <span data-id="w6w12" id="w6w12" data-pos="noun" class="pos-noun word" data-corresp="#g5w6">men</span> <span data-id="w6w13" id="w6w13" data-pos="verb" class="pos-verb word" data-corresp="#g5w6">back</span> <span data-id="w6w14" id="w6w14" data-pos="adv" class="pos-adv word" data-corresp="#g5w6">home.</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">7</td>
+      <td><span data-id="g7w1" id="g7w1" data-pos="pron" class="pos-pron word">αὐτῶν</span> <span data-id="g7w2" id="g7w2" data-pos="prep" class="pos-prep word">γὰρ</span> <span data-id="g7w3" id="g7w3" data-pos="adj" class="pos-adj word">σφετέρῃσιν</span> <span data-id="g7w4" id="g7w4" data-pos="noun" class="pos-noun word">ἀτασθαλίῃσιν</span> <span data-id="g7w5" id="g7w5" data-pos="verb" class="pos-verb word">ὄλοντο,</span></td>
+      <td><span data-id="l7w1" id="l7w1" data-pos="verb" class="pos-verb word" data-corresp="#g7w5">they</span> <span data-id="l7w2" id="l7w2" data-pos="verb" class="pos-verb word" data-corresp="#g7w5">were</span> <span data-id="l7w3" id="l7w3" data-pos="verb" class="pos-verb word" data-corresp="#g7w5">destroyed</span> <span data-id="l7w4" id="l7w4" data-pos="prep" class="pos-prep word" data-corresp="#g7w3">by</span> <span data-id="l7w5" id="l7w5" data-pos="adj" class="pos-adj word" data-corresp="#g7w4">their</span> <span data-id="l7w6" id="l7w6" data-pos="noun" class="pos-noun word" data-corresp="#g7w4">own</span> <span data-id="l7w7" id="l7w7" data-pos="noun" class="pos-noun word" data-corresp="#g7w4">wild</span> <span data-id="l7w8" id="l7w8" data-pos="noun" class="pos-noun word" data-corresp="#g7w4">recklessness,</span></td>
+      <td><span data-id="w7w1" id="w7w1" data-pos="verb" class="pos-verb word" data-corresp="#g6w4 #g7w5">He</span> <span data-id="w7w2" id="w7w2" data-pos="verb" class="pos-verb word" data-corresp="#g6w4 #g7w5">failed,</span> <span data-id="w7w3" id="w7w3" data-pos="conj" class="pos-conj word" data-corresp="#g7w4">and</span> <span data-id="w7w4" id="w7w4" data-pos="prep" class="pos-prep word" data-corresp="#g7w4">for</span> <span data-id="w7w5" id="w7w5" data-pos="adj" class="pos-adj word" data-corresp="#g7w4">their</span> <span data-id="w7w6" id="w7w6" data-pos="noun" class="pos-noun word" data-corresp="#g7w4">own</span> <span data-id="w7w7" id="w7w7" data-pos="noun" class="pos-noun word" data-corresp="#g7w4">mistakes,</span> <span data-id="w7w8" id="w7w8" data-pos="verb" class="pos-verb word" data-corresp="#g7w4">they</span> <span data-id="w7w9" id="w7w9" data-pos="verb" class="pos-verb word" data-corresp="#g7w4">died.</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">8</td>
+      <td><span data-id="g8w1" id="g8w1" data-pos="noun" class="pos-noun word">νήπιοι,</span> <span data-id="g8w2" id="g8w2" data-pos="rel-pron" class="pos-rel-pron word">οἳ</span> <span data-id="g8w3" id="g8w3" data-pos="prep" class="pos-prep word">κατὰ</span> <span data-id="g8w4" id="g8w4" data-pos="noun" class="pos-noun word">βοῦς</span> <span data-id="g8w5" id="g8w5" data-pos="prop" class="pos-prop word">Ὑπερίονος</span> <span data-id="g8w6" id="g8w6" data-pos="prop" class="pos-prop word">Ἠελίοιο</span></td>
+      <td><span data-id="l8w1" id="l8w1" data-pos="noun" class="pos-noun word" data-corresp="#g8w1">fools,</span> <span data-id="l8w2" id="l8w2" data-pos="rel" class="pos-rel word" data-corresp="#g8w4">who</span> <span data-id="l8w3" id="l8w3" data-pos="verb" class="pos-verb word" data-corresp="#g8w4">devoured</span> <span data-id="l8w4" id="l8w4" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">the</span> <span data-id="l8w5" id="l8w5" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">oxen</span> <span data-id="l8w6" id="l8w6" data-pos="prop" class="pos-prop word" data-corresp="#g8w5 #g8w6">of</span> <span data-id="l8w7" id="l8w7" data-pos="prop" class="pos-prop word" data-corresp="#g8w5 #g8w6">Helios,</span> <span data-id="l8w8" id="l8w8" data-pos="noun" class="pos-noun word" data-corresp="#g8w5 #g8w6">the</span> <span data-id="l8w9" id="l8w9" data-pos="noun" class="pos-noun word" data-corresp="#g8w5 #g8w6">Sun</span> <span data-id="l8w10" id="l8w10" data-pos="noun" class="pos-noun word" data-corresp="#g8w5 #g8w6">God,</span></td>
+      <td><span data-id="w8w1" id="w8w1" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">They</span> <span data-id="w8w2" id="w8w2" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">are</span> <span data-id="w8w3" id="w8w3" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">the</span> <span data-id="w8w4" id="w8w4" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">Sun</span> <span data-id="w8w5" id="w8w5" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">God&#x27;s</span> <span data-id="w8w6" id="w8w6" data-pos="noun" class="pos-noun word" data-corresp="#g8w4">cattle,</span> <span data-id="w8w7" id="w8w7" data-pos="conj" class="pos-conj word" data-corresp="#g8w4">and</span> <span data-id="w8w8" id="w8w8" data-pos="verb" class="pos-verb word" data-corresp="#g8w4">the</span> <span data-id="w8w9" id="w8w9" data-pos="verb" class="pos-verb word" data-corresp="#g8w4">god</span> <span data-id="w8w10" id="w8w10" data-pos="verb" class="pos-verb word" data-corresp="#g9w5">kept</span> <span data-id="w8w11" id="w8w11" data-pos="verb" class="pos-verb word" data-corresp="#g9w5">them</span> <span data-id="w8w12" id="w8w12" data-pos="verb" class="pos-verb word" data-corresp="#g9w5">from</span> <span data-id="w8w13" id="w8w13" data-pos="noun" class="pos-noun word" data-corresp="#g9w5">home.</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">9</td>
+      <td><span data-id="g9w1" id="g9w1" data-pos="verb" class="pos-verb word">ἤσθιον:</span> <span data-id="g9w2" id="g9w2" data-pos="conj" class="pos-conj word">αὐτὰρ</span> <span data-id="g9w3" id="g9w3" data-pos="pron" class="pos-pron word">ὁ</span> <span data-id="g9w4" id="g9w4" data-pos="demonstrative" class="pos-demonstrative word">τοῖσιν</span> <span data-id="g9w5" id="g9w5" data-pos="verb" class="pos-verb word">ἀφείλετο</span> <span data-id="g9w6" id="g9w6" data-pos="adj" class="pos-adj word">νόστιμον</span> <span data-id="g9w7" id="g9w7" data-pos="noun" class="pos-noun word">ἦμαρ.</span></td>
+      <td><span data-id="l9w1" id="l9w1" data-pos="verb" class="pos-verb word" data-corresp="#g9w5">and</span> <span data-id="l9w2" id="l9w2" data-pos="verb" class="pos-verb word" data-corresp="#g9w5">he</span> <span data-id="l9w3" id="l9w3" data-pos="verb" class="pos-verb word" data-corresp="#g9w5">took</span> <span data-id="l9w4" id="l9w4" data-pos="adj" class="pos-adj word" data-corresp="#g9w6">away</span> <span data-id="l9w5" id="l9w5" data-pos="noun" class="pos-noun word" data-corresp="#g9w6">the</span> <span data-id="l9w6" id="l9w6" data-pos="noun" class="pos-noun word" data-corresp="#g9w6">day</span> <span data-id="l9w7" id="l9w7" data-pos="prep" class="pos-prep word" data-corresp="#g9w6">of</span> <span data-id="l9w8" id="l9w8" data-pos="noun" class="pos-noun word" data-corresp="#g9w6">their</span> <span data-id="l9w9" id="l9w9" data-pos="noun" class="pos-noun word" data-corresp="#g9w6">homecoming.</span></td>
+      <td><span data-id="w9w1" id="w9w1" data-pos="adj" class="pos-adj word">Now</span> <span data-id="w9w2" id="w9w2" data-pos="noun" class="pos-noun word">goddess,</span> <span data-id="w9w3" id="w9w3" data-pos="noun" class="pos-noun word">child</span> <span data-id="w9w4" id="w9w4" data-pos="prep" class="pos-prep word">of</span> <span data-id="w9w5" id="w9w5" data-pos="prop" class="pos-prop word">Zeus,</span> <span data-id="w9w6" id="w9w6" data-pos="verb" class="pos-verb word">tell</span> <span data-id="w9w7" id="w9w7" data-pos="adj" class="pos-adj word">the</span> <span data-id="w9w8" id="w9w8" data-pos="noun" class="pos-noun word">old</span> <span data-id="w9w9" id="w9w9" data-pos="noun" class="pos-noun word">story</span> <span data-id="w9w10" id="w9w10" data-pos="prep" class="pos-prep word">for</span> <span data-id="w9w11" id="w9w11" data-pos="adj" class="pos-adj word">our</span> <span data-id="w9w12" id="w9w12" data-pos="noun" class="pos-noun word">modern</span> <span data-id="w9w13" id="w9w13" data-pos="noun" class="pos-noun word">times.</span></td>
+    </tr>
+    <tr>
+      <td class="line-number">10</td>
+      <td></td>
+      <td><span data-id="l10w1" id="l10w1" data-pos="prep" class="pos-prep word">From</span> <span data-id="l10w2" id="l10w2" data-pos="adj" class="pos-adj word">some</span> <span data-id="l10w3" id="l10w3" data-pos="noun" class="pos-noun word">point</span> <span data-id="l10w4" id="l10w4" data-pos="adv" class="pos-adv word">here,</span> <span data-id="l10w5" id="l10w5" data-pos="noun" class="pos-noun word">goddess,</span> <span data-id="l10w6" id="l10w6" data-pos="noun" class="pos-noun word">daughter</span> <span data-id="l10w7" id="l10w7" data-pos="prep" class="pos-prep word">of</span> <span data-id="l10w8" id="l10w8" data-pos="prop" class="pos-prop word">Zeus,</span> <span data-id="l10w9" id="l10w9" data-pos="verb" class="pos-verb word">speak,</span> <span data-id="l10w10" id="l10w10" data-pos="conj" class="pos-conj word">and</span> <span data-id="l10w11" id="l10w11" data-pos="verb" class="pos-verb word">begin</span> <span data-id="l10w12" id="l10w12" data-pos="noun" class="pos-noun word">our</span> <span data-id="l10w13" id="l10w13" data-pos="noun" class="pos-noun word">story.</span></td>
+      <td><span data-id="w10w1" id="w10w1" data-pos="verb" class="pos-verb word">Find</span> <span data-id="w10w2" id="w10w2" data-pos="adj" class="pos-adj word">the</span> <span data-id="w10w3" id="w10w3" data-pos="noun" class="pos-noun word">beginning.</span></td>
+    </tr>
+
+  </tbody>
+</table>
+
+<script>
+// When hovering/clicking a word, highlight all words that are referenced in data-corresp or have matching id.
+function normalizeIds(str){
+  return (str||"").split(/\s+/).filter(Boolean);
+}
+
+function clearHighlights(){
+  document.querySelectorAll('.highlight').forEach(e=>e.classList.remove('highlight'));
+  // don't remove 'selected' (locked) here
+}
+
+let locked = null;
+
+document.addEventListener('mouseover', function(e){
+  if (locked) return;
+  let el = e.target.closest('.word');
+  clearHighlights();
+  if (!el) return;
+  // highlight self
+  el.classList.add('highlight');
+  // also highlight corresp targets
+  const cor = el.getAttribute('data-corresp');
+  if (cor){
+    normalizeIds(cor).forEach(id=>{
+      let t = document.getElementById(id);
+      if (t) t.classList.add('highlight');
+    });
+  }
+  // highlight words that refer to this id
+  const myid = el.getAttribute('data-id');
+  if (myid){
+    document.querySelectorAll('[data-corresp]').forEach(function(other){
+      const list = normalizeIds(other.getAttribute('data-corresp'));
+      if (list.indexOf(myid) !== -1) other.classList.add('highlight');
+    });
+  }
+});
+
+document.addEventListener('mouseout', function(e){
+  if (locked) return;
+  // clear on mouseout unless moving into another word (handled by mouseover).
+  // Slight delay to allow hover into another element
+  setTimeout(function(){ if (!locked) clearHighlights(); }, 40);
+});
+
+document.addEventListener('click', function(e){
+  let el = e.target.closest('.word');
+  if (!el) {
+    // click outside: clear lock
+    if (locked){
+      locked.classList.remove('selected');
+      locked = null;
+      clearHighlights();
+    }
+    return;
+  }
+  if (locked){
+    locked.classList.remove('selected');
+    locked = null;
+    clearHighlights();
+    return;
+  }
+  // lock this selection
+  locked = el;
+  el.classList.add('selected');
+  // ensure its correspondences are highlighted
+  clearHighlights();
+  el.classList.add('highlight');
+  const cor = el.getAttribute('data-corresp');
+  if (cor){
+    normalizeIds(cor).forEach(id=>{
+      let t = document.getElementById(id);
+      if (t) t.classList.add('highlight');
+    });
+  }
+  const myid = el.getAttribute('data-id');
+  if (myid){
+    document.querySelectorAll('[data-corresp]').forEach(function(other){
+      const list = normalizeIds(other.getAttribute('data-corresp'));
+      if (list.indexOf(myid) !== -1) other.classList.add('highlight');
+    });
+  }
+});
+
+// keyboard: press Esc to clear locked selection
+document.addEventListener('keydown', function(e){
+  if (e.key === "Escape"){
+    if (locked){
+      locked.classList.remove('selected');
+      locked = null;
+      clearHighlights();
+    }
+  }
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,361 @@
+<?xml version='1.0' encoding='utf-8'?>
+<odyssey_variorum>
+  <line line_id="1">
+    <version name="Greek">
+      <word token_id="1" token="ἄνδρα">ἄνδρα</word>
+      <word token_id="2" token="μοι">μοι</word>
+      <word token_id="3" token="ἔννεπε,">ἔννεπε,</word>
+      <word token_id="4" token="μοῦσα,">μοῦσα,</word>
+      <word token_id="5" token="πολύτροπον,">πολύτροπον,</word>
+      <word token_id="6" token="ὃς">ὃς</word>
+      <word token_id="7" token="μάλα">μάλα</word>
+      <word token_id="8" token="πολλὰ">πολλὰ</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="tell">Tell</word>
+      <word token_id="2" token="me,">me,</word>
+      <word token_id="3" token="muse,">Muse,</word>
+      <word token_id="4" token="of">of</word>
+      <word token_id="5" token="the">the</word>
+      <word token_id="6" token="man">man</word>
+      <word token_id="7" token="of">of</word>
+      <word token_id="8" token="many">many</word>
+      <word token_id="9" token="ways,">ways,</word>
+      <word token_id="10" token="who">who</word>
+      <word token_id="11" token="was">was</word>
+      <word token_id="12" token="driven">driven</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="tell">Tell</word>
+      <word token_id="2" token="me">me</word>
+      <word token_id="3" token="about">about</word>
+      <word token_id="4" token="a">a</word>
+      <word token_id="5" token="complicated">complicated</word>
+      <word token_id="6" token="man.">man.</word>
+    </version>
+  </line>
+  <line line_id="2">
+    <version name="Greek">
+      <word token_id="1" token="πλάγχθη,">πλάγχθη,</word>
+      <word token_id="2" token="ἐπεὶ">ἐπεὶ</word>
+      <word token_id="3" token="τροίης">Τροίης</word>
+      <word token_id="4" token="ἱερὸν">ἱερὸν</word>
+      <word token_id="5" token="πτολίεθρον">πτολίεθρον</word>
+      <word token_id="6" token="ἔπερσεν:">ἔπερσεν:</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="far">far</word>
+      <word token_id="2" token="journeys,">journeys,</word>
+      <word token_id="3" token="after">after</word>
+      <word token_id="4" token="he">he</word>
+      <word token_id="5" token="had">had</word>
+      <word token_id="6" token="sacked">sacked</word>
+      <word token_id="7" token="troy’s">Troy’s</word>
+      <word token_id="8" token="sacred">sacred</word>
+      <word token_id="9" token="citadel.">citadel.</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="muse,">Muse,</word>
+      <word token_id="2" token="tell">tell</word>
+      <word token_id="3" token="me">me</word>
+      <word token_id="4" token="how">how</word>
+      <word token_id="5" token="he">he</word>
+      <word token_id="6" token="wandered">wandered</word>
+      <word token_id="7" token="and">and</word>
+      <word token_id="8" token="was">was</word>
+      <word token_id="9" token="lost">lost</word>
+    </version>
+  </line>
+  <line line_id="3">
+    <version name="Greek">
+      <word token_id="1" token="πολλῶν">πολλῶν</word>
+      <word token_id="2" token="δ᾽">δ᾽</word>
+      <word token_id="3" token="ἀνθρώπων">ἀνθρώπων</word>
+      <word token_id="4" token="ἴδεν">ἴδεν</word>
+      <word token_id="5" token="ἄστεα">ἄστεα</word>
+      <word token_id="6" token="καὶ">καὶ</word>
+      <word token_id="7" token="νόον">νόον</word>
+      <word token_id="8" token="ἔγνω,">ἔγνω,</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="many">Many</word>
+      <word token_id="2" token="were">were</word>
+      <word token_id="3" token="they">they</word>
+      <word token_id="4" token="whose">whose</word>
+      <word token_id="5" token="cities">cities</word>
+      <word token_id="6" token="he">he</word>
+      <word token_id="7" token="saw,">saw,</word>
+      <word token_id="8" token="whose">whose</word>
+      <word token_id="9" token="minds">minds</word>
+      <word token_id="10" token="he">he</word>
+      <word token_id="11" token="learned">learned</word>
+      <word token_id="12" token="of,">of,</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="when">when</word>
+      <word token_id="2" token="he">he</word>
+      <word token_id="3" token="had">had</word>
+      <word token_id="4" token="wrecked">wrecked</word>
+      <word token_id="5" token="the">the</word>
+      <word token_id="6" token="holy">holy</word>
+      <word token_id="7" token="town">town</word>
+      <word token_id="8" token="of">of</word>
+      <word token_id="9" token="troy,">Troy,</word>
+    </version>
+  </line>
+  <line line_id="4">
+    <version name="Greek">
+      <word token_id="1" token="πολλὰ">πολλὰ</word>
+      <word token_id="2" token="δ᾽">δ᾽</word>
+      <word token_id="3" token="ὅ">ὅ</word>
+      <word token_id="4" token="γ᾽">γ᾽</word>
+      <word token_id="5" token="ἐν">ἐν</word>
+      <word token_id="6" token="πόντῳ">πόντῳ</word>
+      <word token_id="7" token="πάθεν">πάθεν</word>
+      <word token_id="8" token="ἄλγεα">ἄλγεα</word>
+      <word token_id="9" token="ὃν">ὃν</word>
+      <word token_id="10" token="κατὰ">κατὰ</word>
+      <word token_id="11" token="θυμόν,">θυμόν,</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="many">many</word>
+      <word token_id="2" token="the">the</word>
+      <word token_id="3" token="pains">pains</word>
+      <word token_id="4" token="he">he</word>
+      <word token_id="5" token="suffered">suffered</word>
+      <word token_id="6" token="in">in</word>
+      <word token_id="7" token="his">his</word>
+      <word token_id="8" token="spirit">spirit</word>
+      <word token_id="9" token="on">on</word>
+      <word token_id="10" token="the">the</word>
+      <word token_id="11" token="wide">wide</word>
+      <word token_id="12" token="sea,">sea,</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="and">and</word>
+      <word token_id="2" token="where">where</word>
+      <word token_id="3" token="he">he</word>
+      <word token_id="4" token="went,">went,</word>
+      <word token_id="5" token="and">and</word>
+      <word token_id="6" token="who">who</word>
+      <word token_id="7" token="he">he</word>
+      <word token_id="8" token="met,">met,</word>
+      <word token_id="9" token="the">the</word>
+      <word token_id="10" token="pain">pain</word>
+    </version>
+  </line>
+  <line line_id="5">
+    <version name="Greek">
+      <word token_id="1" token="ἀρνύμενος">ἀρνύμενος</word>
+      <word token_id="2" token="ἥν">ἥν</word>
+      <word token_id="3" token="τε">τε</word>
+      <word token_id="4" token="ψυχὴν">ψυχὴν</word>
+      <word token_id="5" token="καὶ">καὶ</word>
+      <word token_id="6" token="νόστον">νόστον</word>
+      <word token_id="7" token="ἑταίρων.">ἑταίρων.</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="struggling">struggling</word>
+      <word token_id="2" token="for">for</word>
+      <word token_id="3" token="his">his</word>
+      <word token_id="4" token="own">own</word>
+      <word token_id="5" token="life">life</word>
+      <word token_id="6" token="and">and</word>
+      <word token_id="7" token="the">the</word>
+      <word token_id="8" token="homecoming">homecoming</word>
+      <word token_id="9" token="of">of</word>
+      <word token_id="10" token="his">his</word>
+      <word token_id="11" token="companions.">companions.</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="he">he</word>
+      <word token_id="2" token="suffered">suffered</word>
+      <word token_id="3" token="on">on</word>
+      <word token_id="4" token="the">the</word>
+      <word token_id="5" token="sea,">sea,</word>
+      <word token_id="6" token="and">and</word>
+      <word token_id="7" token="how">how</word>
+      <word token_id="8" token="he">he</word>
+      <word token_id="9" token="worked">worked</word>
+    </version>
+  </line>
+  <line line_id="6">
+    <version name="Greek">
+      <word token_id="1" token="ἀλλ᾽">ἀλλ᾽</word>
+      <word token_id="2" token="οὐδ᾽">οὐδ᾽</word>
+      <word token_id="3" token="ὣς">ὣς</word>
+      <word token_id="4" token="ἑτάρους">ἑτάρους</word>
+      <word token_id="5" token="ἐρρύσατο,">ἐρρύσατο,</word>
+      <word token_id="6" token="ἱέμενός">ἱέμενός</word>
+      <word token_id="7" token="περ:">περ:</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="even">Even</word>
+      <word token_id="2" token="so">so</word>
+      <word token_id="3" token="he">he</word>
+      <word token_id="4" token="could">could</word>
+      <word token_id="5" token="not">not</word>
+      <word token_id="6" token="save">save</word>
+      <word token_id="7" token="his">his</word>
+      <word token_id="8" token="companions,">companions,</word>
+      <word token_id="9" token="hard">hard</word>
+      <word token_id="10" token="though">though</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="to">to</word>
+      <word token_id="2" token="save">save</word>
+      <word token_id="3" token="his">his</word>
+      <word token_id="4" token="life">life</word>
+      <word token_id="5" token="and">and</word>
+      <word token_id="6" token="bring">bring</word>
+      <word token_id="7" token="his">his</word>
+      <word token_id="8" token="men">men</word>
+      <word token_id="9" token="back">back</word>
+      <word token_id="10" token="home.">home.</word>
+    </version>
+  </line>
+  <line line_id="7">
+    <version name="Greek">
+      <word token_id="1" token="αὐτῶν">αὐτῶν</word>
+      <word token_id="2" token="γὰρ">γὰρ</word>
+      <word token_id="3" token="σφετέρῃσιν">σφετέρῃσιν</word>
+      <word token_id="4" token="ἀτασθαλίῃσιν">ἀτασθαλίῃσιν</word>
+      <word token_id="5" token="ὄλοντο,">ὄλοντο,</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="he">he</word>
+      <word token_id="2" token="strove">strove</word>
+      <word token_id="3" token="to;">to;</word>
+      <word token_id="4" token="they">they</word>
+      <word token_id="5" token="were">were</word>
+      <word token_id="6" token="destroyed">destroyed</word>
+      <word token_id="7" token="by">by</word>
+      <word token_id="8" token="their">their</word>
+      <word token_id="9" token="own">own</word>
+      <word token_id="10" token="wild">wild</word>
+      <word token_id="11" token="recklessness,">recklessness,</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="he">He</word>
+      <word token_id="2" token="failed,">failed,</word>
+      <word token_id="3" token="and">and</word>
+      <word token_id="4" token="for">for</word>
+      <word token_id="5" token="their">their</word>
+      <word token_id="6" token="own">own</word>
+      <word token_id="7" token="mistakes,">mistakes,</word>
+      <word token_id="8" token="they">they</word>
+      <word token_id="9" token="died.">died.</word>
+    </version>
+  </line>
+  <line line_id="8">
+    <version name="Greek">
+      <word token_id="1" token="νήπιοι,">νήπιοι,</word>
+      <word token_id="2" token="οἳ">οἳ</word>
+      <word token_id="3" token="κατὰ">κατὰ</word>
+      <word token_id="4" token="βοῦς">βοῦς</word>
+      <word token_id="5" token="ὑπερίονος">Ὑπερίονος</word>
+      <word token_id="6" token="ἠελίοιο">Ἠελίοιο</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="fools,">fools,</word>
+      <word token_id="2" token="who">who</word>
+      <word token_id="3" token="devoured">devoured</word>
+      <word token_id="4" token="the">the</word>
+      <word token_id="5" token="oxen">oxen</word>
+      <word token_id="6" token="of">of</word>
+      <word token_id="7" token="helios,">Helios,</word>
+      <word token_id="8" token="the">the</word>
+      <word token_id="9" token="sun">Sun</word>
+      <word token_id="10" token="god,">God,</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="they">They</word>
+      <word token_id="2" token="are">are</word>
+      <word token_id="3" token="the">the</word>
+      <word token_id="4" token="sun">Sun</word>
+      <word token_id="5" token="god's">God's</word>
+      <word token_id="6" token="cattle,">cattle,</word>
+      <word token_id="7" token="and">and</word>
+      <word token_id="8" token="the">the</word>
+      <word token_id="9" token="god">god</word>
+    </version>
+  </line>
+  <line line_id="9">
+    <version name="Greek">
+      <word token_id="1" token="ἤσθιον:">ἤσθιον:</word>
+      <word token_id="2" token="αὐτὰρ">αὐτὰρ</word>
+      <word token_id="3" token="ὁ">ὁ</word>
+      <word token_id="4" token="τοῖσιν">τοῖσιν</word>
+      <word token_id="5" token="ἀφείλετο">ἀφείλετο</word>
+      <word token_id="6" token="νόστιμον">νόστιμον</word>
+      <word token_id="7" token="ἦμαρ.">ἦμαρ.</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="and">and</word>
+      <word token_id="2" token="he">he</word>
+      <word token_id="3" token="took">took</word>
+      <word token_id="4" token="away">away</word>
+      <word token_id="5" token="the">the</word>
+      <word token_id="6" token="day">day</word>
+      <word token_id="7" token="of">of</word>
+      <word token_id="8" token="their">their</word>
+      <word token_id="9" token="homecoming.">homecoming.</word>
+      <word token_id="10" token="from">From</word>
+      <word token_id="11" token="some">some</word>
+      <word token_id="12" token="point">point</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="kept">kept</word>
+      <word token_id="2" token="them">them</word>
+      <word token_id="3" token="from">from</word>
+      <word token_id="4" token="home.">home.</word>
+      <word token_id="5" token="now">Now</word>
+      <word token_id="6" token="goddess,">goddess,</word>
+      <word token_id="7" token="child">child</word>
+      <word token_id="8" token="of">of</word>
+      <word token_id="9" token="zeus,">Zeus,</word>
+    </version>
+  </line>
+  <line line_id="10">
+    <version name="Greek">
+      <word token_id="1" token="τῶν">τῶν</word>
+      <word token_id="2" token="ἁμόθεν">ἁμόθεν</word>
+      <word token_id="3" token="γε,">γε,</word>
+      <word token_id="4" token="θεά,">θεά,</word>
+      <word token_id="5" token="θύγατερ">θύγατερ</word>
+      <word token_id="6" token="διός,">Διός,</word>
+      <word token_id="7" token="εἰπὲ">εἰπὲ</word>
+      <word token_id="8" token="καὶ">καὶ</word>
+      <word token_id="9" token="ἡμῖν.">ἡμῖν.</word>
+    </version>
+    <version name="Lattimore">
+      <word token_id="1" token="here,">here,</word>
+      <word token_id="2" token="goddess,">goddess,</word>
+      <word token_id="3" token="daughter">daughter</word>
+      <word token_id="4" token="of">of</word>
+      <word token_id="5" token="zeus,">Zeus,</word>
+      <word token_id="6" token="speak,">speak,</word>
+      <word token_id="7" token="and">and</word>
+      <word token_id="8" token="begin">begin</word>
+      <word token_id="9" token="our">our</word>
+      <word token_id="10" token="story.">story.</word>
+    </version>
+    <version name="Wilson">
+      <word token_id="1" token="tell">tell</word>
+      <word token_id="2" token="the">the</word>
+      <word token_id="3" token="old">old</word>
+      <word token_id="4" token="story">story</word>
+      <word token_id="5" token="for">for</word>
+      <word token_id="6" token="our">our</word>
+      <word token_id="7" token="modern">modern</word>
+      <word token_id="8" token="times.">times.</word>
+    </version>
+  </line>
+  <line line_id="11">
+    <version name="Wilson">
+      <word token_id="1" token="find">Find</word>
+      <word token_id="2" token="the">the</word>
+      <word token_id="3" token="beginning.">beginning.</word>
+    </version>
+  </line>
+</odyssey_variorum>

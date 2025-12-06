@@ -1,0 +1,58 @@
+<?xml version="1.0" ?>
+<parallel_corpus source_lang="grc" target_lang="en">
+    <sent id="1">
+        # G = Greek; E = English
+        <s id="G">
+            <w id="G1">ἄνδρα</w>
+            <w id="G2">μοι</w>
+            <w id="G3">ἔννεπε</w>
+            <w id="G4">μοῦσα</w>
+            <w id="G5">πολύτροπον</w>
+            <w id="G6">ὃς</w>
+            <w id="G7">μάλα</w>
+            <w id="G8">πολλὰ</w>
+            <w id="G9">πλάγχθη</w>
+            <w id="G10">ἐπεὶ</w>
+            <w id="G11">Τροίης</w>
+            <w id="G12">ἱερὸν</w>
+            <w id="G13">πτολίεθρον</w>
+            <w id="G14">ἔπερσεν</w>
+        </s>
+        <s id="E">
+            <w id="E1">Tell</w>
+            <w id="E2">me</w>
+            <w id="E3">about</w>
+            <w id="E4">a</w>
+            <w id="E5">complicated</w>
+            <w id="E6">man</w>
+            <w id="E7">Muse</w>
+            <w id="E8">tell</w>
+            <w id="E9">me</w>
+            <w id="E10">how</w>
+            <w id="E11">he</w>
+            <w id="E12">wandered</w>
+            <w id="E13">and</w>
+            <w id="E14">was</w>
+            <w id="E15">lost</w>
+            <w id="E16">when</w>
+            <w id="E17">he</w>
+            <w id="E18">had</w>
+            <w id="E19">wrecked</w>
+            <w id="E20">the</w>
+            <w id="E21">holy</w>
+            <w id="E22">town</w>
+            <w id="E23">of</w>
+            <w id="E24">Troy</w>
+        </s>
+        <linkGrp align_type="word">
+            <link xtarget="G3 G8"/>
+            <link xtarget="G1"/>
+            <link xtarget="G5"/>
+            <link xtarget=";E3 E4"/>
+            <link xtarget="G9"/>
+            <link xtarget="G11"/>
+            <link xtarget="G12 G13"/>
+            <link xtarget="G14"/>
+        </linkGrp>
+    </sent>
+</parallel_corpus>

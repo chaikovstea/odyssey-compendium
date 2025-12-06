@@ -1,0 +1,63 @@
+from lxml import etree
+
+tei_path = "odyssey_tei.xml"
+tree = etree.parse(tei_path)
+
+NS = {"tei": "http://www.tei-c.org/ns/1.0"}
+
+with open("odyssey_table_colored.html", "w", encoding="utf-8") as f:
+    f.write("<html><head><style>")
+    f.write("""
+        table {border-collapse: collapse; width: 100%;} 
+        td, th {border:1px solid black; padding:5px; vertical-align: top;} 
+        .noun{background-color:#FFDAB9;} 
+        .verb{background-color:#E0FFFF;} 
+        .adj{background-color:#FFE4E1;} 
+        .pron{background-color:#F0E68C;} 
+        .prep{background-color:#D3D3D3;} 
+        .conj{background-color:#ADD8E6;}
+    """)
+    f.write("</style></head><body>")
+    f.write("<h2>Odyssey 1.1 — Greek + English Aligned (POS color-coded)</h2>")
+    f.write("<table>")
+    f.write("<tr><th>Line</th><th>Greek</th><th>Lattimore</th><th>Wilson</th></tr>")
+
+    # Loop over segments
+    for seg in tree.xpath("//tei:seg", namespaces=NS):
+        line_number = seg.get("n")
+        
+        # Greek words with glosses
+        greek_words = []
+        greek_pos_list = []
+        for w in seg.xpath("tei:w", namespaces=NS):
+            pos = w.get("pos")
+            text = w.text or ""
+            gloss = w.find("tei:note[@type='gloss']", namespaces=NS)
+            gloss_text = f" ({gloss.text})" if gloss is not None else ""
+            greek_words.append(f'<span class="{pos}">{text}{gloss_text}</span>')
+            greek_pos_list.append(pos)
+        greek_html = " ".join(greek_words)
+
+        # English translations: split words and color code roughly by Greek POS count
+        lattimore = seg.xpath("tei:note[@type='translation' and @rend='lattimore']/text()", namespaces=NS)
+        lattimore_text = lattimore[0] if lattimore else "-"
+        wilson = seg.xpath("tei:note[@type='translation' and @rend='wilson']/text()", namespaces=NS)
+        wilson_text = wilson[0] if wilson else "-"
+
+        # Simple heuristic: split English into same number of words as Greek for coloring
+        def color_text(english_text, pos_list):
+            words = english_text.split()
+            colored = []
+            for i, word in enumerate(words):
+                pos = pos_list[min(i, len(pos_list)-1)]
+                colored.append(f'<span class="{pos}">{word}</span>')
+            return " ".join(colored)
+
+        lattimore_html = color_text(lattimore_text, greek_pos_list) if lattimore_text != "-" else "-"
+        wilson_html = color_text(wilson_text, greek_pos_list) if wilson_text != "-" else "-"
+
+        f.write(f"<tr><td>{line_number}</td><td>{greek_html}</td><td>{lattimore_html}</td><td>{wilson_html}</td></tr>")
+
+    f.write("</table></body></html>")
+
+print("HTML table generated: odyssey_table_colored.html")

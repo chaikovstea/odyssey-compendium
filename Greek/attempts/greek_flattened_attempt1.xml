@@ -1,0 +1,29 @@
+
+<?xml version="1.0" encoding=""?>
+<xml>
+  <text>
+      <anchor type="collate" xml:id="WB1"/>
+      <milestone unit="book" n="1"/>
+      <milestone unit="stanza" type="start" n="1"/>
+      <pb xml:id="ODYGreek_v1_01" n="viii"/>
+      <head sID="book1_head1"/>_______<head eID="book1_head1"/>
+      <comment text="rm: centered ornamental "/>
+      <line><p sID="book1_s1">π<hi sID="book1_s1_hi1"/>λάγχθη,<hi eID="book1_s1_hi1"/> ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν: </line>
+        <line>πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν:</line>
+        <line>πλάγχθη, ἐπεὶ Τροίης ἱερὸν πτολίεθρον ἔπερσεν:</line>
+        <line>πολλῶν δ᾽ ἀνθρώπων ἴδεν ἄστεα καὶ νόον ἔγνω,</line>
+        <line>πολλὰ δ᾽ ὅ γ᾽ ἐν πόντῳ πάθεν ἄλγεα ὃν κατὰ θυμόν,</line>
+
+#uh oh. there's a full line/stanza break every five lines in the greek source that i'm using..........that's a Problem huh.
+
+        <line>ἀλλ᾽ οὐδ᾽ ὣς ἑτάρους ἐρρύσατο, ἱέμενός περ:</line>
+        <line>αὐτῶν γὰρ σφετέρῃσιν ἀτασθαλίῃσιν ὄλοντο,</line>
+        <line>νήπιοι, οἳ κατὰ βοῦς Ὑπερίονος Ἠελίοιο</line>
+        <line>kἤσθιον: αὐτὰρ ὁ τοῖσιν ἀφείλετο νόστιμον ἦμαρ.</line> <p eID="book1_s1"/> 
+
+
+
+
+
+
+
