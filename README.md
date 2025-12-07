@@ -1,10 +1,16 @@
-# odyssey-variorum
-DSAM 3000 semester project, fall 2025
+# odyssey-translation-compendium
+DSAM 3000 semester project, fall 2025: an odyssey translation compendium. 
 
-basic concept: two translations of the odyssey compared with one another 
+# overview
+this is the beginnings of the creation of a tool that would align the Greek text of "The Odyssey" alongside translations of the Greek. as of the Fall 2025 semester, the selected translations are that of Richmond Lattimore, and the newer translation offered by Emily Wilson. during this exploratory phase, focusing on the first point of inquiry below, the first stanza of Book 1 (approx. lines 1-10) will be worked with. 
 
-sources: lattimore, wilson, frankenstein variorum documentation, other DH project information, TEI XML documentation, greek text
+# points of inquiry 
+* during tool development: how does computation help or hinder the learning process when working with translations & variations across texts?
+* following tool development: how do different translations of the odyssey portray and refer to monsters? 
 
-computation involved: notebook files, github repo, zotero library, notion workspace, cargo site 
+# points of access
+* Zotero Library: provides access to sources and points of inspiration for the project. 
+* GitHub Repository: displays the ReadMe markdown file documenting an overview of the project, and houses the relevant coding files for the project. in the spirit of this tool's development serving as a means of investigation in the learning process around translation work and the digital, test files will also be stored here to document trial (and, inevitably, a hell of a lot of error.)
+* Notion Workspace (private): home to my personal Mindful Practice Journal, or what i've affectionately been calling my Captain's Log. also home to brainstorming documents, and other course materials related to DSAM 3000. 
+* Cargo website: displays a curated version of the aforementioned Captain's Log, as a means of documenting the learning process. will eventually house the compendium tool.  
 
-update as of early november: benchmarking across other digital humanities-related TRANSLATION projects, not just text variora after a super helpful discussion with Ben during office hours. it may not look like a lot is happening computationally, but i am working on the cargo site, and plan on really digging into markup stuff this week (11/9 - 11/15)
