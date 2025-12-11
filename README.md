@@ -30,7 +30,6 @@ Files in this GitHub repository are organized by the three Odyssey-related text 
 * Files that, when linked together with a Python script, produce an HTML table aligning the translations with one another
 
 
-
 # Where Things Stand (or Don't) - Lessons Learned
 
 As of the end of the semester, not much of an actual tool was created, aside from a series of prototypes and basic tables (through the use of XML, XSLT, and Python to create an HTML file as output). A lack of a functional tool expected from jump, due to the fact that the projects that this endeavor (odyssey?) was based on were created by teams with funding and other resources; however, there is still much to be gained from what was explored during this stretch of work: 
@@ -48,6 +47,29 @@ No matter how much or how little I succeeded, or how the end result of this seme
 
 -Scylla 
 
+(Additional progress notes and images below...)
+
+# Prototyping Efforts
+
+After realizing that I would not be able to execute a decent mock-up of the tool computationally (on my own), I decided to shift gears and work towards prototyping. This started off in a very basic form: 
+
+<img width="498" height="245" alt="image" src="https://github.com/user-attachments/assets/5ea1c0a1-a37a-436a-8210-f72a379fd09c" />
+
+<img width="542" height="277" alt="image" src="https://github.com/user-attachments/assets/6196638d-ef1b-433a-a0af-ec6dd019c2fd" />
+
+I established with these basic prototypes a few key things: 
+* As demonstrated in other data visualizations discussed in class, as well as other variora & translation-based DH projects, (Project Alpheios's tool involving one translation and the original Greek is a good example), color would play an important part in mapping out word meaning and alignment across texts.
+* Similarly, if color is going to be a factor, that means that I would need to keep accessibility in mind to account for things like color-blindness.
+* Decisions would need to be made about how the texts are displayed against one another. Should they be side-by-side, as I was able to create in VS Code? Should it operate as more of a pop-up system, depending on the text the user is highlighting/clicking on/interacting with? Does the actual position of the texts in relation to each other, if they're side-by-side, matter to a user?
+
+Considering these points, below is a more complicated mock-up/prototype of the tool, which I designed using Canva: 
+
+<img width="898" height="581" alt="image" src="https://github.com/user-attachments/assets/b299ddec-7dbf-4fc3-9001-99c50747571b" />
+
+With this prototype, a left-hand sidebar allows a user to customize their experience through the selection of which texts are visible (as well as their alignment in relation to one another), selection of automatically highlighted text emphasis if desired, and accessibility settings if needed. Three main text panels (since all three texts are selected in this hypothetical example) are present, and an example of corresponding highlighting across texts is displayed. The header of the site would contain the title that returns to a home page, and links to subpages (About, Contact, Resources). There is also a search bar that would allow for searching through the text. 
+
+There are many back-end complexities that would go into making this prototype a reality that are way beyond my computational skills. For example, if parts of speech is a way for the text to be emphasized, words would need to be labeled by their parts of speech on the back-end. I found joy in creating this prototype because of being able to set aside my limits computationally, though, and it allowed me to focus on the user experience. 
+
 
 # Cargo site screengrabs (rip)
 
@@ -56,6 +78,8 @@ No matter how much or how little I succeeded, or how the end result of this seme
 <img width="1470" height="811" alt="image" src="https://github.com/user-attachments/assets/4de7e419-4d7f-48ed-91d6-0303b8cebaed" />
 
 <img width="1470" height="811" alt="image" src="https://github.com/user-attachments/assets/c027d6b0-ac76-48d3-8f0d-14550f249b2a" />
+
+
 
 
 
