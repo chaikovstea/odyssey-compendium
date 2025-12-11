@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UT-8"?>
+<xmlns:TEI xmlns:xmlns="http://www.tei-c.org/ns/1.0">
+  <text>
+      <anchor type="collate" xml:id="WB1"/>
+      <milestone unit="book" n="1"/>
+      <milestone unit="stanza" type="start" n="1"/>
+      <pb xml:id="ODYLattmore_v1_01" n="viii"/>
+      <head sID="book1_head1"/>Book 1<head eID="book1_head1"/>
+      <comment text="rm: centered ornamental "/>
+       <line><p sID="book1_s1">T<hi sID="book1_s1_hi1"/>ell<hi eID="book1_s1_hi1"/> me, Muse, of the man of many ways, who was driven</line>
+       <line>far journeys, after he had sacked Troy’s sacred citadel.</line> 
+       <line>Many were they whose cities he saw, whose minds he learned of,</line>
+       <line>many the pains he suffered in his spirit on the wide sea,</line>
+       <line>struggling for his own life and the homecoming of his companions.</line>
+       <line>Even so he could not save his companions, hard though</line>
+       <line>he strove to; they were destroyed by their own wild recklessness,</line>
+       <line>fools, who devoured the oxen of Helios, the Sun God,</line>
+       <line>and he took away the day of their homecoming. From some point</line>
+       <line>here, goddess, daughter of Zeus, speak, and begin our story.</line><p eID="book1_s1"/> 
