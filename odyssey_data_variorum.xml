@@ -359,3 +359,6 @@
     </version>
   </line>
 </odyssey_variorum>
+
+
+# notes: created tokens per word, line IDs, and version IDs. opted to put all 3 versions' stanzas in one file because of only working with the first 1-10, or 1-11 lines (contrast from the Frankenstein Variorum, which used multiple XML files for major sections of each edition - but they were working with full texts and full text sections.
